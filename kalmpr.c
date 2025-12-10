@@ -1,10 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define MAXK 5
-#define MINNUM 2100000000
-#define MAXNUM 2101000000
-#define COMPUTATIONS 20
+#ifndef MAXK
+    #define MAXK 5
+#endif
+#ifndef MINNUM
+    #define MINNUM 2100000000
+#endif
+#ifndef MAXNUM
+    #define MAXNUM 2101000000
+#endif
+#ifndef COMPUTATIONS
+    #define COMPUTATIONS 20
+#endif
+
 
 int main()
 {
